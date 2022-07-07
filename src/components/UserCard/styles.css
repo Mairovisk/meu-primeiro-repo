@@ -1,0 +1,44 @@
+.user-card {
+    border: 1px solid gray rgba(0, 0, 0, 0.1);
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.user-card strong {
+    margin-top: 20px;
+}
+
+.user-card span {
+    color: gray;
+    font-size: 12px;
+
+}
+
+.bnt-card {
+    border: none;
+    height: 48px;
+    width: 200px;
+    cursor: pointer;
+
+    margin-top: 30px;
+}
+
+.user-card button:hover {
+    opacity: 0.9;
+}
+
+.following {
+    background-color: blueviolet;
+    color: white;
+}
+
+.unfollowing {
+    background-color: lightgrey;
+    color: gray;
+}
